@@ -1,0 +1,1 @@
+# Ficha-tecnica-de-kaiizen-02
