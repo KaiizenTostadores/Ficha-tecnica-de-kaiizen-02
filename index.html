@@ -402,12 +402,12 @@
 
         // Firebase configuration
         const firebaseConfig = {
-            apiKey: "AIzaSyCHqqCGqYDR37QD30G-jURIf1EgW1LIhZ8",
-            authDomain: "kaiizen-cafe-ficha-marlon-b.firebaseapp.com",
-            projectId: "kaiizen-cafe-ficha-marlon-b",
-            storageBucket: "kaiizen-cafe-ficha-marlon-b.firebasestorage.app",
-            messagingSenderId: "1055411680783",
-            appId: "1:1055411680783:web:59adfe2acf6d452820d57a"
+ apiKey: "AIzaSyA3Q6TSKVO5ipZxHZkKHV7WrcEHYUBYox0",
+  authDomain: "kaiizen-cafe-ficha-02-febb4.firebaseapp.com",
+  projectId: "kaiizen-cafe-ficha-02-febb4",
+  storageBucket: "kaiizen-cafe-ficha-02-febb4.firebasestorage.app",
+  messagingSenderId: "326653857221",
+  appId: "1:326653857221:web:760e53ca2d998dcb850fac"
         };
 
         // Initialize Firebase
@@ -459,7 +459,7 @@
             }
 
             try {
-                const docRef = window.doc(window.db, "cafe-data", "ficha-principal");
+                const docRef = window.doc(window.db, "cafe-data 02", "ficha-02");
                 const docSnap = await window.getDoc(docRef);
                 
                 if (docSnap.exists()) {
@@ -516,7 +516,7 @@
             }
 
             try {
-                const docRef = window.doc(window.db, "cafe-data", "ficha-principal");
+                const docRef = window.doc(window.db, "cafe-data 02", "ficha-02");
                 await window.setDoc(docRef, data);
                 return true;
             } catch (error) {
